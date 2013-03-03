@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D872441816E3BE18009609E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D872441716E3BE18009609E4 /* UIKit.framework */; };
+		D872441A16E3BE18009609E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D872441916E3BE18009609E4 /* Foundation.framework */; };
+		D872441C16E3BE18009609E4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D872441B16E3BE18009609E4 /* CoreGraphics.framework */; };
+		D872442216E3BE18009609E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D872442016E3BE18009609E4 /* InfoPlist.strings */; };
+		D872442416E3BE18009609E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D872442316E3BE18009609E4 /* main.m */; };
+		D872442816E3BE18009609E4 /* SRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D872442716E3BE18009609E4 /* SRAppDelegate.m */; };
+		D872442A16E3BE18009609E4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D872442916E3BE18009609E4 /* Default.png */; };
+		D872442C16E3BE18009609E4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D872442B16E3BE18009609E4 /* Default@2x.png */; };
+		D872442E16E3BE18009609E4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D872442D16E3BE18009609E4 /* Default-568h@2x.png */; };
+		D872443116E3BE18009609E4 /* SRFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D872443016E3BE18009609E4 /* SRFirstViewController.m */; };
+		D872443316E3BE18009609E4 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = D872443216E3BE18009609E4 /* first.png */; };
+		D872443516E3BE18009609E4 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D872443416E3BE18009609E4 /* first@2x.png */; };
+		D872443816E3BE18009609E4 /* SRSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D872443716E3BE18009609E4 /* SRSecondViewController.m */; };
+		D872443A16E3BE18009609E4 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = D872443916E3BE18009609E4 /* second.png */; };
+		D872443C16E3BE18009609E4 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D872443B16E3BE18009609E4 /* second@2x.png */; };
+		D872443F16E3BE19009609E4 /* SRFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D872443D16E3BE19009609E4 /* SRFirstViewController.xib */; };
+		D872444216E3BE19009609E4 /* SRSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D872444016E3BE19009609E4 /* SRSecondViewController.xib */; };
+		D872561416E3C376009609E4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D87247FC16E3C371009609E4 /* README.md */; };
+		D872602516E3C488009609E4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D872602416E3C488009609E4 /* AVFoundation.framework */; };
+		D872602716E3C496009609E4 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D872602616E3C496009609E4 /* CoreMedia.framework */; };
+		D872602916E3C4A9009609E4 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D872602816E3C4A9009609E4 /* ImageIO.framework */; };
+		D872602B16E3C4B2009609E4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D872602A16E3C4B2009609E4 /* QuartzCore.framework */; };
+		D872602F16E3C952009609E4 /* spottedRhino.png in Resources */ = {isa = PBXBuildFile; fileRef = D872602E16E3C952009609E4 /* spottedRhino.png */; };
+		D872636C16E3EAB8009609E4 /* libZXingObjC-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D872635516E3E8C5009609E4 /* libZXingObjC-iOS.a */; };
+		D872636E16E3EB5F009609E4 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D872636D16E3EB5E009609E4 /* CoreVideo.framework */; };
+		D872637016E3EB78009609E4 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D872636F16E3EB78009609E4 /* AudioToolbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D872635416E3E8C5009609E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D872499516E3C371009609E4 /* ZXingObjC.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D872634716E3E8C5009609E4;
+			remoteInfo = "ZXingObjC-iOS";
+		};
+		D872635616E3E8C5009609E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D872499516E3C371009609E4 /* ZXingObjC.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D872634816E3E8C5009609E4;
+			remoteInfo = "ZXingObjCTests-iOS";
+		};
+		D872635816E3E8C5009609E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D872499516E3C371009609E4 /* ZXingObjC.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D872634916E3E8C5009609E4;
+			remoteInfo = "ZXingObjC-osx";
+		};
+		D872635A16E3E8C5009609E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D872499516E3C371009609E4 /* ZXingObjC.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D872634A16E3E8C5009609E4;
+			remoteInfo = "ZXingObjCTests-osx";
+		};
+		D872635C16E3E8C5009609E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D872499516E3C371009609E4 /* ZXingObjC.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D872634B16E3E8C5009609E4;
+			remoteInfo = "OS X Framework";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D872441316E3BE18009609E4 /* ScanForGood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScanForGood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D872441716E3BE18009609E4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D872441916E3BE18009609E4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D872441B16E3BE18009609E4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D872441F16E3BE18009609E4 /* ScanForGood-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScanForGood-Info.plist"; sourceTree = "<group>"; };
+		D872442116E3BE18009609E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D872442316E3BE18009609E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D872442516E3BE18009609E4 /* ScanForGood-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScanForGood-Prefix.pch"; sourceTree = "<group>"; };
+		D872442616E3BE18009609E4 /* SRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SRAppDelegate.h; sourceTree = "<group>"; };
+		D872442716E3BE18009609E4 /* SRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SRAppDelegate.m; sourceTree = "<group>"; };
+		D872442916E3BE18009609E4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D872442B16E3BE18009609E4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D872442D16E3BE18009609E4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D872442F16E3BE18009609E4 /* SRFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SRFirstViewController.h; sourceTree = "<group>"; };
+		D872443016E3BE18009609E4 /* SRFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SRFirstViewController.m; sourceTree = "<group>"; };
+		D872443216E3BE18009609E4 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		D872443416E3BE18009609E4 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		D872443616E3BE18009609E4 /* SRSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SRSecondViewController.h; sourceTree = "<group>"; };
+		D872443716E3BE18009609E4 /* SRSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SRSecondViewController.m; sourceTree = "<group>"; };
+		D872443916E3BE18009609E4 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		D872443B16E3BE18009609E4 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		D872443E16E3BE19009609E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SRFirstViewController.xib; sourceTree = "<group>"; };
+		D872444116E3BE19009609E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SRSecondViewController.xib; sourceTree = "<group>"; };
+		D87247FC16E3C371009609E4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		D872499516E3C371009609E4 /* ZXingObjC.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ZXingObjC.xcodeproj; path = ../../ZXing/ZXingObjC/ZXingObjC.xcodeproj; sourceTree = SOURCE_ROOT; };
+		D872602416E3C488009609E4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D872602616E3C496009609E4 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		D872602816E3C4A9009609E4 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		D872602A16E3C4B2009609E4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D872602E16E3C952009609E4 /* spottedRhino.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spottedRhino.png; sourceTree = "<group>"; };
+		D872636D16E3EB5E009609E4 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		D872636F16E3EB78009609E4 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D872441016E3BE18009609E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D872637016E3EB78009609E4 /* AudioToolbox.framework in Frameworks */,
+				D872636E16E3EB5F009609E4 /* CoreVideo.framework in Frameworks */,
+				D872636C16E3EAB8009609E4 /* libZXingObjC-iOS.a in Frameworks */,
+				D872602B16E3C4B2009609E4 /* QuartzCore.framework in Frameworks */,
+				D872602916E3C4A9009609E4 /* ImageIO.framework in Frameworks */,
+				D872602716E3C496009609E4 /* CoreMedia.framework in Frameworks */,
+				D872602516E3C488009609E4 /* AVFoundation.framework in Frameworks */,
+				D872441816E3BE18009609E4 /* UIKit.framework in Frameworks */,
+				D872441A16E3BE18009609E4 /* Foundation.framework in Frameworks */,
+				D872441C16E3BE18009609E4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D872440816E3BE18009609E4 = {
+			isa = PBXGroup;
+			children = (
+				D872636F16E3EB78009609E4 /* AudioToolbox.framework */,
+				D872636D16E3EB5E009609E4 /* CoreVideo.framework */,
+				D872602D16E3C952009609E4 /* Resources */,
+				D872448416E3C36D009609E4 /* ZXingObjC */,
+				D872441D16E3BE18009609E4 /* ScanForGood */,
+				D872441616E3BE18009609E4 /* Frameworks */,
+				D872441416E3BE18009609E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D872441416E3BE18009609E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D872441316E3BE18009609E4 /* ScanForGood.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D872441616E3BE18009609E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D872602A16E3C4B2009609E4 /* QuartzCore.framework */,
+				D872602816E3C4A9009609E4 /* ImageIO.framework */,
+				D872602616E3C496009609E4 /* CoreMedia.framework */,
+				D872602416E3C488009609E4 /* AVFoundation.framework */,
+				D872441716E3BE18009609E4 /* UIKit.framework */,
+				D872441916E3BE18009609E4 /* Foundation.framework */,
+				D872441B16E3BE18009609E4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D872441D16E3BE18009609E4 /* ScanForGood */ = {
+			isa = PBXGroup;
+			children = (
+				D872442616E3BE18009609E4 /* SRAppDelegate.h */,
+				D872442716E3BE18009609E4 /* SRAppDelegate.m */,
+				D872442F16E3BE18009609E4 /* SRFirstViewController.h */,
+				D872443016E3BE18009609E4 /* SRFirstViewController.m */,
+				D872443216E3BE18009609E4 /* first.png */,
+				D872443416E3BE18009609E4 /* first@2x.png */,
+				D872443616E3BE18009609E4 /* SRSecondViewController.h */,
+				D872443716E3BE18009609E4 /* SRSecondViewController.m */,
+				D872443916E3BE18009609E4 /* second.png */,
+				D872443B16E3BE18009609E4 /* second@2x.png */,
+				D872443D16E3BE19009609E4 /* SRFirstViewController.xib */,
+				D872444016E3BE19009609E4 /* SRSecondViewController.xib */,
+				D872441E16E3BE18009609E4 /* Supporting Files */,
+			);
+			path = ScanForGood;
+			sourceTree = "<group>";
+		};
+		D872441E16E3BE18009609E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D872441F16E3BE18009609E4 /* ScanForGood-Info.plist */,
+				D872442016E3BE18009609E4 /* InfoPlist.strings */,
+				D872442316E3BE18009609E4 /* main.m */,
+				D872442516E3BE18009609E4 /* ScanForGood-Prefix.pch */,
+				D872442916E3BE18009609E4 /* Default.png */,
+				D872442B16E3BE18009609E4 /* Default@2x.png */,
+				D872442D16E3BE18009609E4 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D872448416E3C36D009609E4 /* ZXingObjC */ = {
+			isa = PBXGroup;
+			children = (
+				D87247FC16E3C371009609E4 /* README.md */,
+				D872499516E3C371009609E4 /* ZXingObjC.xcodeproj */,
+			);
+			name = ZXingObjC;
+			path = ../../ZXing/ZXingObjC;
+			sourceTree = "<group>";
+		};
+		D872602D16E3C952009609E4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D872602E16E3C952009609E4 /* spottedRhino.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D872634C16E3E8C5009609E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D872635516E3E8C5009609E4 /* libZXingObjC-iOS.a */,
+				D872635716E3E8C5009609E4 /* ZXingObjCTests-iOS.octest */,
+				D872635916E3E8C5009609E4 /* libZXingObjC-osx.a */,
+				D872635B16E3E8C5009609E4 /* ZXingObjCTests-osx.octest */,
+				D872635D16E3E8C5009609E4 /* ZXingObjC.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D872441216E3BE18009609E4 /* ScanForGood */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D872444516E3BE19009609E4 /* Build configuration list for PBXNativeTarget "ScanForGood" */;
+			buildPhases = (
+				D872440F16E3BE18009609E4 /* Sources */,
+				D872441016E3BE18009609E4 /* Frameworks */,
+				D872441116E3BE18009609E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScanForGood;
+			productName = ScanForGood;
+			productReference = D872441316E3BE18009609E4 /* ScanForGood.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D872440A16E3BE18009609E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SR;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Spotted Rhino";
+			};
+			buildConfigurationList = D872440D16E3BE18009609E4 /* Build configuration list for PBXProject "ScanForGood" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D872440816E3BE18009609E4;
+			productRefGroup = D872441416E3BE18009609E4 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D872634C16E3E8C5009609E4 /* Products */;
+					ProjectRef = D872499516E3C371009609E4 /* ZXingObjC.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				D872441216E3BE18009609E4 /* ScanForGood */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		D872635516E3E8C5009609E4 /* libZXingObjC-iOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libZXingObjC-iOS.a";
+			remoteRef = D872635416E3E8C5009609E4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D872635716E3E8C5009609E4 /* ZXingObjCTests-iOS.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "ZXingObjCTests-iOS.octest";
+			remoteRef = D872635616E3E8C5009609E4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D872635916E3E8C5009609E4 /* libZXingObjC-osx.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libZXingObjC-osx.a";
+			remoteRef = D872635816E3E8C5009609E4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D872635B16E3E8C5009609E4 /* ZXingObjCTests-osx.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "ZXingObjCTests-osx.octest";
+			remoteRef = D872635A16E3E8C5009609E4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D872635D16E3E8C5009609E4 /* ZXingObjC.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ZXingObjC.framework;
+			remoteRef = D872635C16E3E8C5009609E4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D872441116E3BE18009609E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D872442216E3BE18009609E4 /* InfoPlist.strings in Resources */,
+				D872442A16E3BE18009609E4 /* Default.png in Resources */,
+				D872442C16E3BE18009609E4 /* Default@2x.png in Resources */,
+				D872442E16E3BE18009609E4 /* Default-568h@2x.png in Resources */,
+				D872443316E3BE18009609E4 /* first.png in Resources */,
+				D872443516E3BE18009609E4 /* first@2x.png in Resources */,
+				D872443A16E3BE18009609E4 /* second.png in Resources */,
+				D872443C16E3BE18009609E4 /* second@2x.png in Resources */,
+				D872443F16E3BE19009609E4 /* SRFirstViewController.xib in Resources */,
+				D872444216E3BE19009609E4 /* SRSecondViewController.xib in Resources */,
+				D872561416E3C376009609E4 /* README.md in Resources */,
+				D872602F16E3C952009609E4 /* spottedRhino.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D872440F16E3BE18009609E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D872442416E3BE18009609E4 /* main.m in Sources */,
+				D872442816E3BE18009609E4 /* SRAppDelegate.m in Sources */,
+				D872443116E3BE18009609E4 /* SRFirstViewController.m in Sources */,
+				D872443816E3BE18009609E4 /* SRSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D872442016E3BE18009609E4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D872442116E3BE18009609E4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D872443D16E3BE19009609E4 /* SRFirstViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D872443E16E3BE19009609E4 /* en */,
+			);
+			name = SRFirstViewController.xib;
+			sourceTree = "<group>";
+		};
+		D872444016E3BE19009609E4 /* SRSecondViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D872444116E3BE19009609E4 /* en */,
+			);
+			name = SRSecondViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D872444316E3BE19009609E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D872444416E3BE19009609E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D872444616E3BE19009609E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../ZXing/ZXingObjC/DerivedData/ZXingObjC/Build/Products/Debug-iphonesimulator\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScanForGood/ScanForGood-Prefix.pch";
+				INFOPLIST_FILE = "ScanForGood/ScanForGood-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../ZXing/ZXingObjC/DerivedData/ZXingObjC/Build/Products/Debug-iphonesimulator\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D872444716E3BE19009609E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../ZXing/ZXingObjC/DerivedData/ZXingObjC/Build/Products/Debug-iphonesimulator\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScanForGood/ScanForGood-Prefix.pch";
+				INFOPLIST_FILE = "ScanForGood/ScanForGood-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../ZXing/ZXingObjC/DerivedData/ZXingObjC/Build/Products/Debug-iphonesimulator\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D872440D16E3BE18009609E4 /* Build configuration list for PBXProject "ScanForGood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D872444316E3BE19009609E4 /* Debug */,
+				D872444416E3BE19009609E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D872444516E3BE19009609E4 /* Build configuration list for PBXNativeTarget "ScanForGood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D872444616E3BE19009609E4 /* Debug */,
+				D872444716E3BE19009609E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D872440A16E3BE18009609E4 /* Project object */;
+}
