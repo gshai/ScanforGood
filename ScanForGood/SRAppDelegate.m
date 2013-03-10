@@ -7,22 +7,37 @@
 //
 
 #import "SRAppDelegate.h"
-
 #import "SRFirstViewController.h"
-
-#import "SRSecondViewController.h"
+#import "SRLeftViewController.h"
+#import "IIViewDeckController.h"
 
 @implementation SRAppDelegate
+@synthesize centerController = _centerController;
+@synthesize leftController = _leftController;
+@synthesize imageController = _imageController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
     // Override point for customization after application launch.
+/*
     UIViewController *viewController1 = [[SRFirstViewController alloc] initWithNibName:@"SRFirstViewController" bundle:nil];
     UIViewController *viewController2 = [[SRSecondViewController alloc] initWithNibName:@"SRSecondViewController" bundle:nil];
     self.tabBarController = [[UITabBarController alloc] init];
     self.tabBarController.viewControllers = @[viewController1, viewController2];
     self.window.rootViewController = self.tabBarController;
+ */
+    self.leftController = [[SRLeftViewController alloc] initWithNibName:@"SRLeftViewController" bundle:nil];
+    
+    SRFirstViewController *mainController = [[SRFirstViewController alloc] initWithNibName:@"SRFirstViewController" bundle:nil];
+    _centerController = [[UINavigationController alloc] initWithRootViewController:mainController];
+    IIViewDeckController *deckController =  [[IIViewDeckController alloc] initWithCenterViewController: _centerController
+                                                                                    leftViewController: _leftController
+                                                                                   rightViewController: nil];
+    deckController.rightSize = 100;
+    deckController.leftSize  = 100;
+    self.window.rootViewController = deckController;
     [self.window makeKeyAndVisible];
     return YES;
 }

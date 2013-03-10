@@ -13,17 +13,8 @@
 		D872442216E3BE18009609E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D872442016E3BE18009609E4 /* InfoPlist.strings */; };
 		D872442416E3BE18009609E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D872442316E3BE18009609E4 /* main.m */; };
 		D872442816E3BE18009609E4 /* SRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D872442716E3BE18009609E4 /* SRAppDelegate.m */; };
-		D872442A16E3BE18009609E4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D872442916E3BE18009609E4 /* Default.png */; };
-		D872442C16E3BE18009609E4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D872442B16E3BE18009609E4 /* Default@2x.png */; };
-		D872442E16E3BE18009609E4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D872442D16E3BE18009609E4 /* Default-568h@2x.png */; };
 		D872443116E3BE18009609E4 /* SRFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D872443016E3BE18009609E4 /* SRFirstViewController.m */; };
-		D872443316E3BE18009609E4 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = D872443216E3BE18009609E4 /* first.png */; };
-		D872443516E3BE18009609E4 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D872443416E3BE18009609E4 /* first@2x.png */; };
-		D872443816E3BE18009609E4 /* SRSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D872443716E3BE18009609E4 /* SRSecondViewController.m */; };
-		D872443A16E3BE18009609E4 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = D872443916E3BE18009609E4 /* second.png */; };
-		D872443C16E3BE18009609E4 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D872443B16E3BE18009609E4 /* second@2x.png */; };
 		D872443F16E3BE19009609E4 /* SRFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D872443D16E3BE19009609E4 /* SRFirstViewController.xib */; };
-		D872444216E3BE19009609E4 /* SRSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D872444016E3BE19009609E4 /* SRSecondViewController.xib */; };
 		D872561416E3C376009609E4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D87247FC16E3C371009609E4 /* README.md */; };
 		D872602516E3C488009609E4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D872602416E3C488009609E4 /* AVFoundation.framework */; };
 		D872602716E3C496009609E4 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D872602616E3C496009609E4 /* CoreMedia.framework */; };
@@ -33,6 +24,22 @@
 		D872636C16E3EAB8009609E4 /* libZXingObjC-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D872635516E3E8C5009609E4 /* libZXingObjC-iOS.a */; };
 		D872636E16E3EB5F009609E4 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D872636D16E3EB5E009609E4 /* CoreVideo.framework */; };
 		D872637016E3EB78009609E4 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D872636F16E3EB78009609E4 /* AudioToolbox.framework */; };
+		D872638016EB9CA4009609E4 /* IISideController.m in Sources */ = {isa = PBXBuildFile; fileRef = D872637B16EB9CA4009609E4 /* IISideController.m */; };
+		D872638116EB9CA4009609E4 /* IIViewDeckController.m in Sources */ = {isa = PBXBuildFile; fileRef = D872637D16EB9CA4009609E4 /* IIViewDeckController.m */; };
+		D872638216EB9CA4009609E4 /* IIWrapController.m in Sources */ = {isa = PBXBuildFile; fileRef = D872637F16EB9CA4009609E4 /* IIWrapController.m */; };
+		D872638616EB9DFF009609E4 /* SRLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D872638416EB9DFF009609E4 /* SRLeftViewController.m */; };
+		D872638716EB9DFF009609E4 /* SRLeftViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D872638516EB9DFF009609E4 /* SRLeftViewController.xib */; };
+		D872638F16EC0035009609E4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D872638816EC0035009609E4 /* Default-568h@2x.png */; };
+		D872639016EC0035009609E4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D872638916EC0035009609E4 /* Default.png */; };
+		D872639116EC0035009609E4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D872638A16EC0035009609E4 /* Default@2x.png */; };
+		D872639216EC0035009609E4 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = D872638B16EC0035009609E4 /* first.png */; };
+		D872639316EC0035009609E4 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D872638C16EC0035009609E4 /* first@2x.png */; };
+		D872639416EC0035009609E4 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = D872638D16EC0035009609E4 /* second.png */; };
+		D872639516EC0035009609E4 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D872638E16EC0035009609E4 /* second@2x.png */; };
+		D872639916EC0A91009609E4 /* SRSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D872639716EC0A91009609E4 /* SRSettingsViewController.m */; };
+		D872639A16EC0A91009609E4 /* SRSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D872639816EC0A91009609E4 /* SRSettingsViewController.xib */; };
+		D872639E16EC0B3A009609E4 /* SRHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D872639C16EC0B3A009609E4 /* SRHistoryViewController.m */; };
+		D872639F16EC0B3A009609E4 /* SRHistoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D872639D16EC0B3A009609E4 /* SRHistoryViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,19 +91,9 @@
 		D872442516E3BE18009609E4 /* ScanForGood-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScanForGood-Prefix.pch"; sourceTree = "<group>"; };
 		D872442616E3BE18009609E4 /* SRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SRAppDelegate.h; sourceTree = "<group>"; };
 		D872442716E3BE18009609E4 /* SRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SRAppDelegate.m; sourceTree = "<group>"; };
-		D872442916E3BE18009609E4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		D872442B16E3BE18009609E4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		D872442D16E3BE18009609E4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		D872442F16E3BE18009609E4 /* SRFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SRFirstViewController.h; sourceTree = "<group>"; };
 		D872443016E3BE18009609E4 /* SRFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SRFirstViewController.m; sourceTree = "<group>"; };
-		D872443216E3BE18009609E4 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
-		D872443416E3BE18009609E4 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		D872443616E3BE18009609E4 /* SRSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SRSecondViewController.h; sourceTree = "<group>"; };
-		D872443716E3BE18009609E4 /* SRSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SRSecondViewController.m; sourceTree = "<group>"; };
-		D872443916E3BE18009609E4 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
-		D872443B16E3BE18009609E4 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		D872443E16E3BE19009609E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SRFirstViewController.xib; sourceTree = "<group>"; };
-		D872444116E3BE19009609E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SRSecondViewController.xib; sourceTree = "<group>"; };
 		D87247FC16E3C371009609E4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		D872499516E3C371009609E4 /* ZXingObjC.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ZXingObjC.xcodeproj; path = ../../ZXing/ZXingObjC/ZXingObjC.xcodeproj; sourceTree = SOURCE_ROOT; };
 		D872602416E3C488009609E4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -106,6 +103,28 @@
 		D872602E16E3C952009609E4 /* spottedRhino.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spottedRhino.png; sourceTree = "<group>"; };
 		D872636D16E3EB5E009609E4 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		D872636F16E3EB78009609E4 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		D872637A16EB9CA4009609E4 /* IISideController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IISideController.h; sourceTree = "<group>"; };
+		D872637B16EB9CA4009609E4 /* IISideController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IISideController.m; sourceTree = "<group>"; };
+		D872637C16EB9CA4009609E4 /* IIViewDeckController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IIViewDeckController.h; sourceTree = "<group>"; };
+		D872637D16EB9CA4009609E4 /* IIViewDeckController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IIViewDeckController.m; sourceTree = "<group>"; };
+		D872637E16EB9CA4009609E4 /* IIWrapController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IIWrapController.h; sourceTree = "<group>"; };
+		D872637F16EB9CA4009609E4 /* IIWrapController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IIWrapController.m; sourceTree = "<group>"; };
+		D872638316EB9DFF009609E4 /* SRLeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRLeftViewController.h; sourceTree = "<group>"; };
+		D872638416EB9DFF009609E4 /* SRLeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRLeftViewController.m; sourceTree = "<group>"; };
+		D872638516EB9DFF009609E4 /* SRLeftViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SRLeftViewController.xib; sourceTree = "<group>"; };
+		D872638816EC0035009609E4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D872638916EC0035009609E4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D872638A16EC0035009609E4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D872638B16EC0035009609E4 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		D872638C16EC0035009609E4 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		D872638D16EC0035009609E4 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		D872638E16EC0035009609E4 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		D872639616EC0A90009609E4 /* SRSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRSettingsViewController.h; sourceTree = "<group>"; };
+		D872639716EC0A91009609E4 /* SRSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRSettingsViewController.m; sourceTree = "<group>"; };
+		D872639816EC0A91009609E4 /* SRSettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SRSettingsViewController.xib; sourceTree = "<group>"; };
+		D872639B16EC0B3A009609E4 /* SRHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRHistoryViewController.h; sourceTree = "<group>"; };
+		D872639C16EC0B3A009609E4 /* SRHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRHistoryViewController.m; sourceTree = "<group>"; };
+		D872639D16EC0B3A009609E4 /* SRHistoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SRHistoryViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,8 +151,6 @@
 		D872440816E3BE18009609E4 = {
 			isa = PBXGroup;
 			children = (
-				D872636F16E3EB78009609E4 /* AudioToolbox.framework */,
-				D872636D16E3EB5E009609E4 /* CoreVideo.framework */,
 				D872602D16E3C952009609E4 /* Resources */,
 				D872448416E3C36D009609E4 /* ZXingObjC */,
 				D872441D16E3BE18009609E4 /* ScanForGood */,
@@ -153,6 +170,8 @@
 		D872441616E3BE18009609E4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D872636F16E3EB78009609E4 /* AudioToolbox.framework */,
+				D872636D16E3EB5E009609E4 /* CoreVideo.framework */,
 				D872602A16E3C4B2009609E4 /* QuartzCore.framework */,
 				D872602816E3C4A9009609E4 /* ImageIO.framework */,
 				D872602616E3C496009609E4 /* CoreMedia.framework */,
@@ -167,18 +186,21 @@
 		D872441D16E3BE18009609E4 /* ScanForGood */ = {
 			isa = PBXGroup;
 			children = (
-				D872442616E3BE18009609E4 /* SRAppDelegate.h */,
+				D872637916EB9CA4009609E4 /* ViewDeck */,
 				D872442716E3BE18009609E4 /* SRAppDelegate.m */,
+				D872442616E3BE18009609E4 /* SRAppDelegate.h */,
 				D872442F16E3BE18009609E4 /* SRFirstViewController.h */,
 				D872443016E3BE18009609E4 /* SRFirstViewController.m */,
-				D872443216E3BE18009609E4 /* first.png */,
-				D872443416E3BE18009609E4 /* first@2x.png */,
-				D872443616E3BE18009609E4 /* SRSecondViewController.h */,
-				D872443716E3BE18009609E4 /* SRSecondViewController.m */,
-				D872443916E3BE18009609E4 /* second.png */,
-				D872443B16E3BE18009609E4 /* second@2x.png */,
 				D872443D16E3BE19009609E4 /* SRFirstViewController.xib */,
-				D872444016E3BE19009609E4 /* SRSecondViewController.xib */,
+				D872638316EB9DFF009609E4 /* SRLeftViewController.h */,
+				D872638416EB9DFF009609E4 /* SRLeftViewController.m */,
+				D872638516EB9DFF009609E4 /* SRLeftViewController.xib */,
+				D872639616EC0A90009609E4 /* SRSettingsViewController.h */,
+				D872639716EC0A91009609E4 /* SRSettingsViewController.m */,
+				D872639816EC0A91009609E4 /* SRSettingsViewController.xib */,
+				D872639B16EC0B3A009609E4 /* SRHistoryViewController.h */,
+				D872639C16EC0B3A009609E4 /* SRHistoryViewController.m */,
+				D872639D16EC0B3A009609E4 /* SRHistoryViewController.xib */,
 				D872441E16E3BE18009609E4 /* Supporting Files */,
 			);
 			path = ScanForGood;
@@ -191,9 +213,6 @@
 				D872442016E3BE18009609E4 /* InfoPlist.strings */,
 				D872442316E3BE18009609E4 /* main.m */,
 				D872442516E3BE18009609E4 /* ScanForGood-Prefix.pch */,
-				D872442916E3BE18009609E4 /* Default.png */,
-				D872442B16E3BE18009609E4 /* Default@2x.png */,
-				D872442D16E3BE18009609E4 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -211,6 +230,13 @@
 		D872602D16E3C952009609E4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D872638816EC0035009609E4 /* Default-568h@2x.png */,
+				D872638916EC0035009609E4 /* Default.png */,
+				D872638A16EC0035009609E4 /* Default@2x.png */,
+				D872638B16EC0035009609E4 /* first.png */,
+				D872638C16EC0035009609E4 /* first@2x.png */,
+				D872638D16EC0035009609E4 /* second.png */,
+				D872638E16EC0035009609E4 /* second@2x.png */,
 				D872602E16E3C952009609E4 /* spottedRhino.png */,
 			);
 			path = Resources;
@@ -226,6 +252,19 @@
 				D872635D16E3E8C5009609E4 /* ZXingObjC.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		D872637916EB9CA4009609E4 /* ViewDeck */ = {
+			isa = PBXGroup;
+			children = (
+				D872637A16EB9CA4009609E4 /* IISideController.h */,
+				D872637B16EB9CA4009609E4 /* IISideController.m */,
+				D872637C16EB9CA4009609E4 /* IIViewDeckController.h */,
+				D872637D16EB9CA4009609E4 /* IIViewDeckController.m */,
+				D872637E16EB9CA4009609E4 /* IIWrapController.h */,
+				D872637F16EB9CA4009609E4 /* IIWrapController.m */,
+			);
+			path = ViewDeck;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -325,17 +364,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				D872442216E3BE18009609E4 /* InfoPlist.strings in Resources */,
-				D872442A16E3BE18009609E4 /* Default.png in Resources */,
-				D872442C16E3BE18009609E4 /* Default@2x.png in Resources */,
-				D872442E16E3BE18009609E4 /* Default-568h@2x.png in Resources */,
-				D872443316E3BE18009609E4 /* first.png in Resources */,
-				D872443516E3BE18009609E4 /* first@2x.png in Resources */,
-				D872443A16E3BE18009609E4 /* second.png in Resources */,
-				D872443C16E3BE18009609E4 /* second@2x.png in Resources */,
 				D872443F16E3BE19009609E4 /* SRFirstViewController.xib in Resources */,
-				D872444216E3BE19009609E4 /* SRSecondViewController.xib in Resources */,
 				D872561416E3C376009609E4 /* README.md in Resources */,
 				D872602F16E3C952009609E4 /* spottedRhino.png in Resources */,
+				D872638716EB9DFF009609E4 /* SRLeftViewController.xib in Resources */,
+				D872638F16EC0035009609E4 /* Default-568h@2x.png in Resources */,
+				D872639016EC0035009609E4 /* Default.png in Resources */,
+				D872639116EC0035009609E4 /* Default@2x.png in Resources */,
+				D872639216EC0035009609E4 /* first.png in Resources */,
+				D872639316EC0035009609E4 /* first@2x.png in Resources */,
+				D872639416EC0035009609E4 /* second.png in Resources */,
+				D872639516EC0035009609E4 /* second@2x.png in Resources */,
+				D872639A16EC0A91009609E4 /* SRSettingsViewController.xib in Resources */,
+				D872639F16EC0B3A009609E4 /* SRHistoryViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,7 +390,12 @@
 				D872442416E3BE18009609E4 /* main.m in Sources */,
 				D872442816E3BE18009609E4 /* SRAppDelegate.m in Sources */,
 				D872443116E3BE18009609E4 /* SRFirstViewController.m in Sources */,
-				D872443816E3BE18009609E4 /* SRSecondViewController.m in Sources */,
+				D872638016EB9CA4009609E4 /* IISideController.m in Sources */,
+				D872638116EB9CA4009609E4 /* IIViewDeckController.m in Sources */,
+				D872638216EB9CA4009609E4 /* IIWrapController.m in Sources */,
+				D872638616EB9DFF009609E4 /* SRLeftViewController.m in Sources */,
+				D872639916EC0A91009609E4 /* SRSettingsViewController.m in Sources */,
+				D872639E16EC0B3A009609E4 /* SRHistoryViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,14 +416,6 @@
 				D872443E16E3BE19009609E4 /* en */,
 			);
 			name = SRFirstViewController.xib;
-			sourceTree = "<group>";
-		};
-		D872444016E3BE19009609E4 /* SRSecondViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D872444116E3BE19009609E4 /* en */,
-			);
-			name = SRSecondViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

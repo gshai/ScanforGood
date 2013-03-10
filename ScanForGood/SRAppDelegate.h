@@ -11,7 +11,10 @@
 @interface SRAppDelegate : UIResponder <UIApplicationDelegate, UITabBarControllerDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
 @property (strong, nonatomic) UITabBarController *tabBarController;
+
+@property (strong, nonatomic) UIViewController *centerController;
+@property (strong, nonatomic) UIViewController *leftController;
+@property (strong, nonatomic) UIViewController *imageController;
 
 @end

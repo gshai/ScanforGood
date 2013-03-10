@@ -1,33 +1,32 @@
 //
-//  SRSecondViewController.m
+//  SRSettingsViewController.m
 //  ScanForGood
 //
-//  Created by Gilad Shai on 3/3/13.
+//  Created by Gilad Shai on 3/9/13.
 //  Copyright (c) 2013 Spotted Rhino. All rights reserved.
 //
 
-#import "SRSecondViewController.h"
+#import "SRSettingsViewController.h"
 
-@interface SRSecondViewController ()
+@interface SRSettingsViewController ()
 
 @end
 
-@implementation SRSecondViewController
+@implementation SRSettingsViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        self.title = NSLocalizedString(@"Second", @"Second");
-        self.tabBarItem.image = [UIImage imageNamed:@"second"];
+        // Custom initialization
     }
     return self;
 }
-							
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    // Do any additional setup after loading the view from its nib.
 }
 
 - (void)didReceiveMemoryWarning
