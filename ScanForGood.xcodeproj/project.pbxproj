@@ -40,6 +40,7 @@
 		D872639A16EC0A91009609E4 /* SRSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D872639816EC0A91009609E4 /* SRSettingsViewController.xib */; };
 		D872639E16EC0B3A009609E4 /* SRHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D872639C16EC0B3A009609E4 /* SRHistoryViewController.m */; };
 		D872639F16EC0B3A009609E4 /* SRHistoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D872639D16EC0B3A009609E4 /* SRHistoryViewController.xib */; };
+		D87263AC16ECE958009609E4 /* SRDonation.m in Sources */ = {isa = PBXBuildFile; fileRef = D87263AB16ECE958009609E4 /* SRDonation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -125,6 +126,8 @@
 		D872639B16EC0B3A009609E4 /* SRHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRHistoryViewController.h; sourceTree = "<group>"; };
 		D872639C16EC0B3A009609E4 /* SRHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRHistoryViewController.m; sourceTree = "<group>"; };
 		D872639D16EC0B3A009609E4 /* SRHistoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SRHistoryViewController.xib; sourceTree = "<group>"; };
+		D87263AA16ECE958009609E4 /* SRDonation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SRDonation.h; path = Models/SRDonation.h; sourceTree = "<group>"; };
+		D87263AB16ECE958009609E4 /* SRDonation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SRDonation.m; path = Models/SRDonation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +189,7 @@
 		D872441D16E3BE18009609E4 /* ScanForGood */ = {
 			isa = PBXGroup;
 			children = (
+				D87263AD16ECE968009609E4 /* Models */,
 				D872637916EB9CA4009609E4 /* ViewDeck */,
 				D872442716E3BE18009609E4 /* SRAppDelegate.m */,
 				D872442616E3BE18009609E4 /* SRAppDelegate.h */,
@@ -265,6 +269,15 @@
 				D872637F16EB9CA4009609E4 /* IIWrapController.m */,
 			);
 			path = ViewDeck;
+			sourceTree = "<group>";
+		};
+		D87263AD16ECE968009609E4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D87263AA16ECE958009609E4 /* SRDonation.h */,
+				D87263AB16ECE958009609E4 /* SRDonation.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -396,6 +409,7 @@
 				D872638616EB9DFF009609E4 /* SRLeftViewController.m in Sources */,
 				D872639916EC0A91009609E4 /* SRSettingsViewController.m in Sources */,
 				D872639E16EC0B3A009609E4 /* SRHistoryViewController.m in Sources */,
+				D87263AC16ECE958009609E4 /* SRDonation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
